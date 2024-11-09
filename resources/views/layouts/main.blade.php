@@ -9,13 +9,13 @@
 
   <title>Lex F&R Advocates</title>
 
-  <meta name="keywords" content="WebSite Template" />
-  <meta name="description" content="{{ url('') }}/Porto - Multipurpose Website Template">
-  <meta name="author" content="okler.net">
+  <meta name="keywords" content="Lex F&R" />
+  <meta name="description" content="Lex F&R">
+  <meta name="author" content="Lex F&R">
 
   <!-- Favicon -->
-  <link rel="shortcut icon" href="{{ url('') }}/porto/img/favicon.ico" type="image/x-icon" />
-  <link rel="apple-touch-icon" href="{{ url('') }}/porto/img/apple-touch-icon.png">
+  <link rel="shortcut icon" href="{{ secure_asset('') }}/porto/img/favicon.ico" type="image/x-icon" />
+  <link rel="apple-touch-icon" href="{{ secure_asset('') }}/porto/img/apple-touch-icon.png">
 
   <!-- Mobile Metas -->
   <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, shrink-to-fit=no">
@@ -24,28 +24,28 @@
   <link id="googleFonts" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Lora:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet" type="text/css">
 
   <!-- Vendor CSS -->
-  <link rel="stylesheet" href="{{ url('') }}/porto/vendor/bootstrap/css/bootstrap.min.css">
-  <link rel="stylesheet" href="{{ url('') }}/porto/vendor/fontawesome-free/css/all.min.css">
-  <link rel="stylesheet" href="{{ url('') }}/porto/vendor/animate/animate.compat.css">
-  <link rel="stylesheet" href="{{ url('') }}/porto/vendor/simple-line-icons/css/simple-line-icons.min.css">
-  <link rel="stylesheet" href="{{ url('') }}/porto/vendor/owl.carousel/assets/owl.carousel.min.css">
-  <link rel="stylesheet" href="{{ url('') }}/porto/vendor/owl.carousel/assets/owl.theme.default.min.css">
-  <link rel="stylesheet" href="{{ url('') }}/porto/vendor/magnific-popup/magnific-popup.min.css">
+  <link rel="stylesheet" href="{{ secure_asset('') }}/porto/vendor/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="{{ secure_asset('') }}/porto/vendor/fontawesome-free/css/all.min.css">
+  <link rel="stylesheet" href="{{ secure_asset('') }}/porto/vendor/animate/animate.compat.css">
+  <link rel="stylesheet" href="{{ secure_asset('') }}/porto/vendor/simple-line-icons/css/simple-line-icons.min.css">
+  <link rel="stylesheet" href="{{ secure_asset('') }}/porto/vendor/owl.carousel/assets/owl.carousel.min.css">
+  <link rel="stylesheet" href="{{ secure_asset('') }}/porto/vendor/owl.carousel/assets/owl.theme.default.min.css">
+  <link rel="stylesheet" href="{{ secure_asset('') }}/porto/vendor/magnific-popup/magnific-popup.min.css">
 
   <!-- Theme CSS -->
-  <link rel="stylesheet" href="{{ url('') }}/porto/css/theme.css">
-  <link rel="stylesheet" href="{{ url('') }}/porto/css/theme-elements.css">
-  <link rel="stylesheet" href="{{ url('') }}/porto/css/theme-blog.css">
-  <link rel="stylesheet" href="{{ url('') }}/porto/css/theme-shop.css">
+  <link rel="stylesheet" href="{{ secure_asset('') }}/porto/css/theme.css">
+  <link rel="stylesheet" href="{{ secure_asset('') }}/porto/css/theme-elements.css">
+  <link rel="stylesheet" href="{{ secure_asset('') }}/porto/css/theme-blog.css">
+  <link rel="stylesheet" href="{{ secure_asset('') }}/porto/css/theme-shop.css">
 
   <!-- Demo CSS -->
-  <link rel="stylesheet" href="{{ url('') }}/porto/css/demos/demo-law-firm-2.css">
+  <link rel="stylesheet" href="{{ secure_asset('') }}/porto/css/demos/demo-law-firm-2.css">
 
   <!-- Skin CSS -->
-  <link id="skinCSS" rel="stylesheet" href="{{ url('') }}/porto/css/skins/skin-law-firm-2.css">
+  <link id="skinCSS" rel="stylesheet" href="{{ secure_asset('') }}/porto/css/skins/skin-law-firm-2.css">
 
   <!-- Theme Custom CSS -->
-  <link rel="stylesheet" href="{{ url('') }}/porto/css/custom.css">
+  <link rel="stylesheet" href="{{ secure_asset('') }}/porto/css/custom.css">
 
 </head>
 
@@ -92,8 +92,8 @@
             <div class="header-column">
               <div class="header-row">
                 <div class="header-logo">
-                  <a href="{{ url('') }}">
-                    <img src="{{ url('') }}/LOGO-LEX-WT.png" class="img-fluid" width="123" style="background-color: #212529" alt="" />
+                  <a href="{{ secure_asset('') }}">
+                    <img src="{{ secure_asset('') }}/LOGO-LEX-WT.png" class="img-fluid" width="123" style="background-color: #212529" alt="" />
                   </a>
                 </div>
               </div>
@@ -146,8 +146,8 @@
             <h5 class="text-transform-none font-weight-bold text-color-light text-5-5 mb-4">About Us</h5>
             <p class="text-3-5">Jakarta-based law firm dedicated to providing full range of corporate legal services in a challenging and dynamic legal environment.<br><br>
               With the team of over 30 high qualified lawyers, mostly with past experiences in their practices, we ensure delivery of high quality legal services to win the best interest of our clients.</p>
-            <a href="{{ url('') }}" class="text-decoration-none">
-              <img src="{{ url('') }}/LOGO-LEX-WT.png" class="img-fluid" alt="" />
+            <a href="{{ secure_asset('') }}" class="text-decoration-none">
+              <img src="{{ secure_asset('') }}/LOGO-LEX-WT.png" class="img-fluid" alt="" />
             </a>
           </div>
           <div class="col-lg-3 mb-5 mb-lg-0">
@@ -209,22 +209,22 @@
   </div>
 
   <!-- Vendor -->
-  <script src="{{ url('') }}/porto/vendor/plugins/js/plugins.min.js"></script>
+  <script src="{{ secure_asset('') }}/porto/vendor/plugins/js/plugins.min.js"></script>
 
   <!-- Theme Base, Components and Settings -->
-  <script src="{{ url('') }}/porto/js/theme.js"></script>
+  <script src="{{ secure_asset('') }}/porto/js/theme.js"></script>
 
   <!-- Current Page Vendor and Views -->
-  <script src="{{ url('') }}/porto/js/views/view.contact.js"></script>
+  <script src="{{ secure_asset('') }}/porto/js/views/view.contact.js"></script>
 
   <!-- Demo -->
-  <script src="{{ url('') }}/porto/js/demos/demo-law-firm-2.js"></script>
+  <script src="{{ secure_asset('') }}/porto/js/demos/demo-law-firm-2.js"></script>
 
   <!-- Theme Custom -->
-  <script src="{{ url('') }}/porto/js/custom.js"></script>
+  <script src="{{ secure_asset('') }}/porto/js/custom.js"></script>
 
   <!-- Theme Initialization Files -->
-  <script src="{{ url('') }}/porto/js/theme.init.js"></script>
+  <script src="{{ secure_asset('') }}/porto/js/theme.init.js"></script>
 
 </body>
 
