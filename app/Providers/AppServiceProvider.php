@@ -90,6 +90,11 @@ class AppServiceProvider extends ServiceProvider
             ),
         ];
 
+        $email = "advocates@lex-fr.com";
+        $phone = "+62811355505";
+
         view()->share('practice_areas', $practice_areas);
+        view()->share('email', $email);
+        view()->share('phone', $phone);
     }
 }

@@ -40,11 +40,11 @@
         <ul class="list list-unstyled d-lg-flex d-xl-block align-items-center justify-content-lg-center mb-4">
           <li class="mb-lg-0 mb-xl-3">
             <i class="icons icon-phone text-color-primary text-5-5 position-relative top-2 me-2"></i>
-            <a href="tel:+62811355505" class="text-color-dark text-color-hover-primary font-weight-bold text-decoration-none text-5">+62-811 355 505</a>
+            <a href="tel:{{ $phone }}" class="text-color-dark text-color-hover-primary font-weight-bold text-decoration-none text-5">{{ $phone }}</a>
           </li>
           <li class="mx-lg-5 mx-xl-0 mb-3 mb-lg-0 mb-xl-3">
             <i class="icons icon-envelope text-color-primary text-6 position-relative top-6 me-2"></i>
-            <a href="mailto:advocates@lex-fr.com" class="text-color-dark text-color-hover-primary text-decoration-none text-4">advocates@lex-fr.com</a>
+            <a href="mailto:{{ $email }}" class="text-color-dark text-color-hover-primary text-decoration-none text-4">{{ $email }}</a>
           </li>
         </ul>
         <ul class="custom-social-icons-style-1 social-icons social-icons-clean">

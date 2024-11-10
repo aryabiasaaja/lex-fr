@@ -24,11 +24,11 @@
               <h2 class="font-weight-bold text-color-dark text-6 text-lg-5 text-xl-7 pb-2 mb-4 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="300">Get In Touch</h2>
               <div class="appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="500">
                 <h3 class="alternative-font-4 font-weight-bold text-color-dark text-transform-none text-4 mb-0">Phone</h3>
-                <a href="tel:+62811355505" class="d-inline-block text-color-default text-color-hover-primary text-decoration-none mb-4">+62-811 355 505</a>
+                <a href="tel:{{ $phone }}" class="d-inline-block text-color-default text-color-hover-primary text-decoration-none mb-4">{{ $phone }}</a>
               </div>
               <div class="appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="1500">
                 <h3 class="alternative-font-4 font-weight-bold text-color-dark text-transform-none text-4 mb-0">Email</h3>
-                <a href="mailto:advocates@lex-fr.com" class="text-color-default text-color-hover-primary text-decoration-underline mb-4">advocates@lex-fr.com</a>
+                <a href="mailto:{{ $email }}" class="text-color-default text-color-hover-primary text-decoration-underline mb-4">{{ $email }}</a>
               </div>
             </div>
             <div class="col-md-6">

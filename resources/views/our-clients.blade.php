@@ -44,6 +44,7 @@
         <li>PT Broadbiz Asia (Paragon Group)</li>
         <li>PT Duta Paramindo Sejahtera (Green Pramuka City)</li>
         <li>PT lntan Batuarana Finance, Tbk</li>
+        <p class="text-color-primary">And Many More...</p>
       </ol>
 
     </div>
